@@ -5,6 +5,7 @@ import Experience from "@/components/about/experience";
 import { Separator } from "@/components/ui/separator";
 import UltimateCoders from "@/public/images/projects/ultimatecoderss.png";
 import MHI from "@/public/images/projects/Mitsubishi.png";
+import Aura from "@/public/images/projects/Aura.jpg";
 import { ExternalLink } from "lucide-react";
 
 export default function About() {
@@ -15,7 +16,7 @@ export default function About() {
     >
       <div className="flex justify-center items-center mb-10 order-2 md:order-1">
         <Image
-          src="/images/Aura.jpg"
+          src={Aura}
           alt="me"
           width={375}
           height={600}
@@ -40,7 +41,7 @@ export default function About() {
                 Engineering the future.{" "}
                 <span className="group inline-flex items-center gap-1 cursor-pointer">
                   <Link
-                    href="../resume/Nathan Skibicki Resume.pdf"
+                    href="/resume/Nathan Skibicki Resume.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground group-hover:text-primary underline underline-offset-5 decoration-primary/50 group-hover:decoration-primary transition duration-300 ease-in-out"

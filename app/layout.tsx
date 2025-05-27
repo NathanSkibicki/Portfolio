@@ -67,7 +67,7 @@ const inter = Inter({
 // });
 
 export const metadata: Metadata = {
-  title: "Gulkaran Singh | Portfolio",
+  title: "Nathan Skibicki | Portfolio",
   description:
     "Information about me, work experience, projects, notes, and more!",
 };

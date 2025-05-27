@@ -31,7 +31,7 @@ export default function Hero() {
             projects
           </Link>
           <Link
-            href="../resume/Gulkaran_Singh_Resume.pdf"
+            href="../resume/Nathan Skibicki Resume.pdf"
             className="text-muted-foreground hover:text-primary transition-colors"
             target="_blank"
             rel="noopener noreferrer"
@@ -51,7 +51,7 @@ export default function Hero() {
         <div className="max-w-6xl w-full">
           <h1 className="text-4xl md:text-7xl font-bold mb-5 text-white/85 group w-fit">
             <span className="text-violet-500 group-hover:text-purple-500 transition-colors">
-              [gulkaran
+              [nathan skibicki
             </span>
             <span className="group-hover:text-white transition-colors"> ~</span>
             <span className="text-violet-500 group-hover:text-purple-500 transition-colors">
@@ -63,7 +63,7 @@ export default function Hero() {
 
           <div className="flex h-5 items-center space-x-3">
             <p className="text-md md:text-xl text-muted-foreground">
-              <span className="italic">/ gul-car-n /</span>
+              <span className="italic">/ ski - bih - kee /</span>
             </p>
             <Separator orientation="vertical" />
             <p className="text-md md:text-xl text-muted-foreground">
@@ -73,7 +73,7 @@ export default function Hero() {
 
           <div className="mt-8 flex space-x-6 inset-0 z-1">
             <Link
-              href="https://github.com/gulkaran"
+              href="https://github.com/NathanSkibicki"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub"
@@ -82,7 +82,7 @@ export default function Hero() {
               <Github size={24} />
             </Link>
             <Link
-              href="https://linkedin.com/in/gulkaran"
+              href="https://www.linkedin.com/in/nathan-skibicki-71b03b223/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
@@ -91,7 +91,7 @@ export default function Hero() {
               <Linkedin size={24} />
             </Link>
             <Link
-              href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=gulkaransingh.m@gmail.com&su=&body=Hello%20Gulkaran!"
+              href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=nathans.skibicki@gmail.com&su=&body=Hello%20Nathan!"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Email"

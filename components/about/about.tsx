@@ -5,7 +5,8 @@ import Experience from "@/components/about/experience";
 import { Separator } from "@/components/ui/separator";
 import ShopifyLogo from "@/public/images/about/shopify.png";
 import ScotiabankLogo from "@/public/images/about/scotiabank.png";
-import WonderlandLogo from "@/public/images/about/canadas-wonderland.png";
+import UltimateCoders from "@/public/images/projects/ultimatecoderss.png";
+import MHI from "@/public/images/projects/Mitsubishi.png";
 import { ExternalLink } from "lucide-react";
 
 export default function About() {
@@ -16,7 +17,7 @@ export default function About() {
     >
       <div className="flex justify-center items-center mb-10 order-2 md:order-1">
         <Image
-          src="/images/me.png"
+          src="/images/Aura.jpg"
           alt="me"
           width={375}
           height={600}
@@ -33,7 +34,7 @@ export default function About() {
             </h2>
             <p className="text-lg mb-6">
               Software engineer, designer, and studying Computer Science at
-              McMaster University. Currently at Shopify.
+              Western University. Currently at Mitsubishi Heavy Industries.
             </p>
 
             <div className="flex items-center">
@@ -41,7 +42,7 @@ export default function About() {
                 Engineering the future.{" "}
                 <span className="group inline-flex items-center gap-1 cursor-pointer">
                   <Link
-                    href="../resume/Gulkaran_Singh_Resume.pdf"
+                    href="../resume/Nathan Skibicki Resume.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground group-hover:text-primary underline underline-offset-5 decoration-primary/50 group-hover:decoration-primary transition duration-300 ease-in-out"
@@ -58,30 +59,30 @@ export default function About() {
 
             <div className="relative">
               <Experience
-                company="Shopify"
-                jobTitle="Software Engineering Intern"
+                company="Mitsubishi Heavy Industries Regional Jet"
+                jobTitle="Data Analyst Intern"
                 date="Summer 2025"
-                img={ShopifyLogo}
-                color="bg-emerald-300"
-                url="https://www.shopify.com"
-              />
-
-              <Experience
-                company="Scotiabank"
-                jobTitle="Trades Floor Fullstack Developer"
-                date="Winter 2024"
-                img={ScotiabankLogo}
+                img={MHI}
                 color="bg-red-400"
-                url="https://www.scotiabank.com"
+                url="https://mhirj.com/"
               />
 
               <Experience
-                company="Canada's Wonderland"
-                jobTitle="Software Engineering Intern"
+                company="Mitsubishi Heavy Industries Regional Jet"
+                jobTitle="RCA Fullstack Developer"
+                date="Summer 2024 - Winter 2024"
+                img={MHI}
+                color="bg-red-400"
+                url="https://mhirj.com/"
+              />
+
+              <Experience
+                company="Ultimate Coders"
+                jobTitle="Programming Instructor"
                 date="Summer 2023"
-                img={WonderlandLogo}
+                img={UltimateCoders}
                 color="bg-blue-400"
-                url="https://www.canadaswonderland.com"
+                url="https://ultimatecoders.com"
               />
             </div>
           </section>
@@ -100,13 +101,7 @@ export default function About() {
             >
               projects
             </Link>
-            <Separator orientation="vertical" />
-            <Link
-              href="/leetcode"
-              className="text-muted-foreground hover:text-primary transition-colors"
-            >
-              leetcode
-            </Link>
+            
             <Separator orientation="vertical" />
             <Link
               href="/notes"
@@ -116,7 +111,7 @@ export default function About() {
             </Link>
             <Separator orientation="vertical" />
             <Link
-              href="https://github.com/gulkaran"
+              href="https://github.com/NathanSkibicki"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub"
@@ -126,7 +121,7 @@ export default function About() {
             </Link>
             <Separator orientation="vertical" />
             <Link
-              href="https://linkedin.com/in/gulkaran"
+              href="https://www.linkedin.com/in/nathan-skibicki-71b03b223/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"

@@ -3,8 +3,6 @@ import Image from "next/image";
 import SpotifyCurrentSong from "@/components/spotify/spotify";
 import Experience from "@/components/about/experience";
 import { Separator } from "@/components/ui/separator";
-import ShopifyLogo from "@/public/images/about/shopify.png";
-import ScotiabankLogo from "@/public/images/about/scotiabank.png";
 import UltimateCoders from "@/public/images/projects/ultimatecoderss.png";
 import MHI from "@/public/images/projects/Mitsubishi.png";
 import { ExternalLink } from "lucide-react";

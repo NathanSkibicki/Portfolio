@@ -6,6 +6,7 @@ import { Separator } from "@/components/ui/separator";
 import UltimateCoders from "@/public/images/projects/ultimatecoderss.png";
 import MHI from "@/public/images/projects/Mitsubishi.png";
 import Aura from "@/public/images/projects/Aura.jpg";
+import LegoSpaceDart from "@/public/images/projects/lego_space_dart.jpg";
 import { ExternalLink } from "lucide-react";
 
 export default function About() {
@@ -40,7 +41,7 @@ export default function About() {
               <p className="text-lg mb-6">
                 Engineering the future.{" "}
                 <span className="group inline-flex items-center gap-1 cursor-pointer">
-                  <Link
+                  <a
                     href="/resume/Nathan Skibicki Resume.pdf"
                     download
                     target="_blank"
@@ -48,7 +49,7 @@ export default function About() {
                     className="text-muted-foreground group-hover:text-primary underline underline-offset-5 decoration-primary/50 group-hover:decoration-primary transition duration-300 ease-in-out"
                   >
                     Resume
-                  </Link>
+                  </a>
                   <ExternalLink
                     strokeWidth={1.5}
                     className="text-muted-foreground group-hover:text-primary transition duration-300 ease-in-out transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"

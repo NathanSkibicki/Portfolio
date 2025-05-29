@@ -41,7 +41,7 @@ export default function About() {
                 Engineering the future.{" "}
                 <span className="group inline-flex items-center gap-1 cursor-pointer">
                   <a
-                    href="/resume/Nathan Skibicki Resume.pdf"
+                    href="/resume/Nathan_Skibicki_Resume.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground group-hover:text-primary underline underline-offset-5 decoration-primary/50 group-hover:decoration-primary transition duration-300 ease-in-out"

@@ -6,7 +6,6 @@ import { Separator } from "@/components/ui/separator";
 import UltimateCoders from "@/public/images/projects/ultimatecoderss.png";
 import MHI from "@/public/images/projects/Mitsubishi.png";
 import Aura from "@/public/images/projects/Aura.jpg";
-import LegoSpaceDart from "@/public/images/projects/lego_space_dart.jpg";
 import { ExternalLink } from "lucide-react";
 
 export default function About() {

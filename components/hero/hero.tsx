@@ -32,7 +32,7 @@ export default function Hero() {
           </Link>
           
           <a
-            href="/resume/Nathan Skibicki Resume.pdf"
+            href="/resume/Nathan_Skibicki_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors"

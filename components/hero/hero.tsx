@@ -30,14 +30,15 @@ export default function Hero() {
           >
             projects
           </Link>
-          <Link
-            href="../resume/Nathan Skibicki Resume.pdf"
-            className="text-muted-foreground hover:text-primary transition-colors"
+          
+          <a
+            href="/resume/Nathan Skibicki Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
+            className="text-muted-foreground hover:text-primary transition-colors"
           >
             resume
-          </Link>
+          </a>
         </nav>
       </header>
 

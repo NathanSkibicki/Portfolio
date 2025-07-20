@@ -101,13 +101,7 @@ export default function About() {
               projects
             </Link>
             
-            <Separator orientation="vertical" />
-            <Link
-              href="/notes"
-              className="text-muted-foreground hover:text-primary transition-colors"
-            >
-              notes
-            </Link>
+            
             <Separator orientation="vertical" />
             <Link
               href="https://github.com/NathanSkibicki"

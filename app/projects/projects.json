@@ -50,7 +50,7 @@
   },
   {
     "title": "Spotify Clone",
-    "description": "Recreation of the popular word guessing game in C++.",
+    "description": "Spotify Api Clone with full app capabilities.",
     "header": "spotify",
     "icon": "Javascript, Spotify API",
     "url": "https://github.com/NathanSkibicki/spotify-clone-app"

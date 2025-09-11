@@ -60,7 +60,7 @@ export default function About() {
               <Experience
                 company="Mitsubishi Heavy Industries Regional Jet"
                 jobTitle="Data Analyst Intern"
-                date="Summer 2025"
+                date="Spring 2025 - Summer 2025"
                 img={MHI}
                 color="bg-red-400"
                 url="https://mhirj.com/"

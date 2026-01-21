@@ -33,7 +33,7 @@ export default function About() {
             </h2>
             <p className="text-lg mb-6">
               Software engineer, designer, and studying Computer Science at
-              Western University. Currently at Mitsubishi Heavy Industries.
+              Western University. Currently at Sunlife.
             </p>
 
             <div className="flex items-center">

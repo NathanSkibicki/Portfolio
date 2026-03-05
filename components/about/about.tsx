@@ -33,7 +33,7 @@ export default function About() {
               About Me
             </h2>
             <p className="text-lg mb-6">
-              Software engineer, designer, and studying Computer Science at
+              Software engineer and studying Computer Science at
               Western University. Currently at Sunlife.
             </p>
 

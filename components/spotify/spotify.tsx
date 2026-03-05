@@ -19,7 +19,6 @@ export default function SpotifyCurrentSong() {
     title: "January 28th",
     songURL: "https://open.spotify.com/album/0UMMIkurRUmkruZ3KGBLtG",
   });
-  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     const fetchSpotify = async () => {
@@ -31,8 +30,6 @@ export default function SpotifyCurrentSong() {
         }
       } catch (error) {
         console.error("Failed to fetch Spotify data:", error);
-      } finally {
-        setIsLoading(false);
       }
     };
 

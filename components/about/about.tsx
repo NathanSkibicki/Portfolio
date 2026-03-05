@@ -5,6 +5,7 @@ import Experience from "@/components/about/experience";
 import { Separator } from "@/components/ui/separator";
 import UltimateCoders from "@/public/images/projects/ultimatecoderss.png";
 import MHI from "@/public/images/projects/Mitsubishi.png";
+import SunLife from "@/public/images/projects/Sun-Life-Financial-Symbol.png";
 import Aura from "@/public/images/projects/Aura.jpg";
 import { ExternalLink } from "lucide-react";
 
@@ -57,6 +58,15 @@ export default function About() {
             </div>
 
             <div className="relative">
+              <Experience
+                company="Sun Life Financial"
+                jobTitle="QE DevOps Specialist"
+                date="Spring 2026 - Summer 2026"
+                img={SunLife}
+                color="bg-yellow-400"
+                url="https://www.sunlife.com/"
+              />
+
               <Experience
                 company="Mitsubishi Heavy Industries Regional Jet"
                 jobTitle="Data Analyst Intern"
